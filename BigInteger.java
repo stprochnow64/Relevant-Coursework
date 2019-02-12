@@ -1,3 +1,6 @@
+/* Creation of new "BigInteger" object that posseses basic arithmetic properties, such as addition, subtraction,
+and multiplication. Received the highest score in the course for this assignment. */
+
 import java.util.Arrays;
 
 public class BigInteger {
