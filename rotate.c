@@ -1,6 +1,6 @@
-/*Write a C program that writes, to standard output, the names of the 88 piano keys and their frequencies. 
-The program needs to actually compute the values; you cannot hardcode them. 
-Display all frequencies with four places after the decimal point. */
+/*Write a C function that takes in a string s and an int k and returns a newly allocated string 
+which is the k-fold left rotation of s. For example, perfoming this operation on "doghouse" 
+and 3 will return "housedog". */
 
 #include <stdio.h>
 #include <string.h>
