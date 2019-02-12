@@ -1,3 +1,7 @@
+/*Write a C program that writes, to standard output, the names of the 88 piano keys and their frequencies. 
+The program needs to actually compute the values; you cannot hardcode them. 
+Display all frequencies with four places after the decimal point. */
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
