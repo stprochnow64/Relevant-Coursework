@@ -1,3 +1,5 @@
+/*Creates a search tree for a "autocompleter" within a search querey using nodes */
+
 package autocompleter;
 
 import java.util.ArrayList;
