@@ -1,10 +1,13 @@
+/*Randomized integrator that estimates the area of an entered polynomial by throwing a set number of darts into the area
+and determining the number that hit below the curve */
+
 public class RandomizedIntegrator{
 
   private double upperBound;
   private double lowerBound;
   private static double[] polynomial;
 
-	public static double throwDarts(double lowerBound, double upperBound, double[] polynomial){
+  public static double throwDarts(double lowerBound, double upperBound, double[] polynomial){
     double numOfHits = 0;
     double numOfDarts = 10000000;
     double finalAnswer = 0;
